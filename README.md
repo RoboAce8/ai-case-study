@@ -1,78 +1,36 @@
 # ai-case-study
 Module 1 Challenge - Case Study on a Company using AI
 
-# TITLE
+# ModelBest and ChatDev Innovation
 
 ## Overview and Origin
 
-* Name of company: ModelBest (https://www.linkedin.com/company/modelbest/about/)
+### ModelBest Inc. is a leading ai research companies in China. The company was founded in August 2022 with founding members from Tsingshua University in Beijing China. ModelBest seeks to innovate in the field of AI and expand what is possible with AI (ModelBest, n.d.).
 
-* When was the company incorporated? August 2022
+### ModelBest Inc. in association with Tsinghua University , the University of Sydney, and Beijing University of Poasts and Telecommunications (BUPT), created an opensource framework for using Large Language Models (LLM) to write software (Qian et al., 2023). Rather than using a single chat instance, they approached the problem of software development by splitting up the tasks amongst multiple chat agents. This approach more closely mimics the way that humans often develop software, as a team of individuals, each with different roles, collaboratively working together to write the software. The team used the waterfall software development method used in industry, albeit a method that is no longer popular.
 
-* Who are the founders of the company? A team from Tsinghua University
-
-* How did the idea for the company (or project) come about? Idea for the ChatDev Project
-
-* "Motivated by the expert-like potential of autonomous agents, we aim to establish language as a
-unifying bridge—utilizing multiple LLM-powered
-agents with specialized roles for cooperative software development through language-based communication across different phases; solutions in
-different phases are derived from their multi-turn
-dialogues, whether dealing with text or code." 	arXiv:2307.07924 [cs.SE] (or arXiv:2307.07924v5 [cs.SE] for this version) https://doi.org/10.48550/arXiv.2307.07924
-
-* How is the company funded? How much funding have they received? $1.48 million dollars (https://pitchbook.com/profiles/company/523142-02#faqs)
+### The different chat agents were trained to specialize in different subtasks of the development and the natural language was used by each of the agents to communicate with each other.
 
 ## Business Activities
 
-* What specific problem is the company or project trying to solve?
+### At this stage, ChatDev is not successful enough to write complete software programs that are ready for market. In the future it may be, but even now the team believes that it is useful for brainstorming in software development. The goal is for the ChatDev to enable individuals and companies to realize their ideas for software even though they lack the skills and experience to do it themselves. Currently, AI can be useful in programming to offer coding suggestions, answer programming questions, and can aid in many other ways as well. However, at this stage, AI is just a programming aid and cannot develop software programs on its own. AI currently makes many coding mistakes and does not check its own work.AI currently commits what is known as hullicinations, meaning... ChatDev reduces many of these problems by subdividing tasks out to multiple agents which check each others work.
 
-"The frequent occurrence of coding hallucination in turn reflects the constrained autonomy of
-agents in task completion, inevitably demanding
-additional manual intervention and thereby hindering the immediate usability and reliability of the
-generated software (Ji et al., 2023)." 	arXiv:2307.07924 [cs.SE] (or arXiv:2307.07924v5 [cs.SE] for this version) https://doi.org/10.48550/arXiv.2307.07924
-
-* Who is the company's intended customer? Is there any information about the market size of this set of customers?
-
-* What solution does this company offer that their competitors do not or cannot offer? (What is the unfair advantage they utilize?)
-
-"ChatDev uses a chat chain to divide each phase
-into smaller subtasks further, enabling agents’
-multi-turn communications to cooperatively propose and develop solutions (e.g., creative ideas
-or source code)." 	arXiv:2307.07924 [cs.SE] (or arXiv:2307.07924v5 [cs.SE] for this version) https://doi.org/10.48550/arXiv.2307.07924
-
-* Which technologies are they currently using, and how are they implementing them? (This may take a little bit of sleuthing&mdash;you may want to search the company’s engineering blog or use sites like Stackshare to find this information.)
+> "The frequent occurrence of coding hallucination in turn reflects the constrained autonomy of
+> agents in task completion, inevitably demanding
+> additional manual intervention and thereby hindering the immediate usability and reliability of the
+> generated software (Ji et al., 2023)" (Qian et al., 2023, p. 2).
 
 ## Landscape
 
-* What field is the company in? AI Research
-
-* What have been the major trends and innovations of this field over the last 5&ndash;10 years?
-
-* What are the other major companies in this field?
+### There have been many advancements in LLMs in the past few years with OpenAI leading many of those developments with the success of ChatGPT. LLMs have become far more accurate, relevant, sensical and ubiquitious in the last few years. They are now used as tutors, proofreaders, summarizers, planners, brainstormers, etc. Other major players are Meta, Google, Microsoft, and Apple which have all been incorporating these new advancements into their existing platforms like search engines, cell phones, social media, and more.
 
 ## Results
-
-* What has been the business impact of this company so far?
-
-* What are some of the core metrics that companies in this field use to measure success? How is your company performing based on these metrics?
-
-* How is your company performing relative to competitors in the same field?
+### ModelBest has created a model that is smaller than ChatGPT and yet performs very well. The smaller size means that the model is much cheaper to use. Recently, Stanford plagiarized ModelBests LLM becuase of its performance (Yuwei, 2024).
 
 ## Recommendations
 
-* If you were to advise the company, what products or services would you suggest they offer? (This could be something that a competitor offers, or use your imagination!)
+### I would suggest that they try the chat agent approach with fields other than software development. This could lead to improved results in many fields that require collaborative effort Would LLMs be able to create more compelling movie scripts if the chat agents were split up into separate roles such as writer, director, storyboard artist, etc. The movie may also utilize image and video generating models to help bring new ideas into the industry.
 
-* Why do you think that offering this product or service would benefit the company?
-
-* What technologies would this additional product or service utilize?
-
-* Why are these technologies appropriate for your solution?
-
-
-
-https://edforson.substack.com/p/paper-review-chatdev
-https://arxiv.org/abs/2307.07924
-https://www.ibm.com/think/topics/chatdev#:~:text=ChatDev's%20primary%20objectives%20are%20to,individual%20in%20a%20complex%20task.
-https://medium.com/@meirgotroot/chatdev-review-the-good-the-bad-and-the-ugly-469b5cb691d4
-https://github.com/OpenBMB/ChatDev
-https://github.com/OpenBMB/ChatDev/blob/main/wiki.md
-https://www.chinadaily.com.cn/a/202402/02/WS65bcaab8a3104efcbdae9650.html
+* ModelBest. (n.d.) About [LinkedIn page] LinkedIn. Retrieved December 1, 2024, from https://www.linkedin.com/company/modelbest/about/
+* Qian, C., Cong, X., Liu, W., Cheng, Weize, Y., Yusheng, C., Dang, Y., Li, J., Xu, Li, D., Zhiyuan, & Maosong, L. (2023). Communicative Agents for Software Development. https://arxiv.org/pdf/2307.07924
+* Yuwei, H. (2024, June 20). China runs to be one of top global players in AI model R&D, says ModelBest co-founder - Global Times. Globaltimes.cn. https://www.globaltimes.cn/page/202406/1314470.shtml
